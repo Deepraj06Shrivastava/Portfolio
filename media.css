@@ -1,0 +1,28 @@
+ @media screen and (max-width: 1299px) {
+    nav .Menu{
+      display: none;
+      
+    }
+    .menu__btn{
+        display: block;
+        margin-top:33px;
+        padding-left:2rem;
+        z-index: 100;
+        
+    }
+    .menu__box{
+        text-align: center;
+        height: 100vh;
+        z-index: 50;
+        
+    }
+  }
+
+
+
+  @media screen and (max-width: 350px) {
+    nav .Logo h1{
+      font-size: 1.8rem;
+      
+    }
+}
